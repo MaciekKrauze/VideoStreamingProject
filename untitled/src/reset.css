@@ -1,0 +1,132 @@
+/* CSS Reset - Usuwa wszystkie domyślne style przeglądarki */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Usuń domyślne marginesy i paddingi */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Usuń domyślne style dla list */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Usuń domyślne style dla linków */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Usuń domyślne style dla przycisków */
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+/* Usuń domyślne style dla inputów */
+input,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    background: none;
+}
+
+/* Usuń domyślne outline */
+:focus {
+    outline: none;
+}
+
+/* Resetuj style dla tabel */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Resetuj style dla obrazków */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Usuń domyślne style dla nagłówków */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Resetuj style dla formularzy */
+fieldset {
+    border: none;
+}
+
+/* Usuń domyślne style dla cytatów */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+/* Resetuj style dla body */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Usuń domyślne style dla hr */
+hr {
+    border: none;
+    height: 0;
+}
+
+/* Resetuj style dla pre i code */
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace;
+    font-size: inherit;
+}
+
+/* Usuń domyślne style dla progress */
+progress {
+    vertical-align: baseline;
+}
+
+/* Usuń domyślne style dla summary */
+summary {
+    display: list-item;
+    cursor: pointer;
+}
+
+/* Resetuj style dla abbreviation */
+abbr[title] {
+    text-decoration: none;
+}
